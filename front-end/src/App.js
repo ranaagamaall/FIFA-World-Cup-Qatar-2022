@@ -7,6 +7,7 @@ import Auth from "./pages/Auth";
 function App() {
   return (
     <div className="App">
+    {/* test */}
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} exact></Route>
